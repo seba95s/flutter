@@ -1,0 +1,101 @@
+name: mycafe
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+ # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+shared_preferences: ">=0.5.10 <2.0.0"
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  page_view_indicators: 1.3.1
+  shared_preferences: 0.5.6
+  firebase_core: ^0.4.0+9
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+5
+  progress_dialog: ^1.2.2
+  flutter_facebook_login: ^3.0.0
+  http: 0.12.1
+  image_picker: ^0.6.0+9
+  firebase_storage: ^3.1.5
+  cached_network_image: ^2.1.0+1
+  firebase_messaging: ^5.1.2
+  
+  flushbar: 1.10.0
+  flutter_app_badger: ^1.1.2
+  # flutter_form_builder: 3.8.0+1
+  # flutter_localizations:
+
+
+  flutter:
+    sdk: flutter
+  google_maps: ">=3.0.0 <4.0.0"
+  cupertino_icons: ^0.1.2
+  scoped_model: ^1.0.1
+  # get it
+  get_it: ^4.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_localizations:
+    sdk: flutter
+flutter:
+
+    fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    uses-material-design: true
+    assets:
+    - images/p.jpg
+    - images/burger.jpg
+    - images/cheesechilly.jpg
+    - images/noodles.jpg
+    - images/pizza.jpg
+    - images/hawkers.jpg
+    - images/bluehill.jpg
+    - images/pizzahut.jpg
+    - images/flipping.jpg
+    - images/pasta.jpg
+    - images/p1.jpg
+    - images/p2.jpg
+    - images/p3.jpg
+    - images/pizza1.jpg
+    - images/b1.jpg
+    - images/b2.jpg
+    - images/b3.jpg
+    - images/pi1.jpg
+    - images/pi2.jpg
+    - images/pi3.jpg
+    - images/ab.jpg
+    - assets/images/facebook_logo.png
+    - assets/images/placeholder.jpg
+# dependency_overrides:
+#   flutter_web:
+#     git:
+#       url: https://github.com/flutter/flutter_web
+#       path: packages/flutter_web
+#   flutter_web_ui:
+#     git:
+#       url: https://github.com/flutter/flutter_web
+#       path: packages/flutter_web_ui
